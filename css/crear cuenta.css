@@ -1,0 +1,32 @@
+body{
+    background: rgba(70, 131, 180, 0.842);
+}
+
+.formularioDeEnvio{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background: white;
+}
+
+
+.formularioDecrearcuenta{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background: white;
+}
+
+@media only screen and (max-width: 720px) {
+    .formularioDecrearcuenta{
+
+        width: 500px;
+    }
+
+}
+
+  @media only screen and (max-width: 590px) {
+    .formularioDecrearcuenta{
+        width: 400px;
+    }
+}

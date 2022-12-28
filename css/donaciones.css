@@ -1,0 +1,45 @@
+body{
+    background: rgba(70, 131, 180, 0.842);
+}
+
+
+.divDonacionesPadre{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background: white; 
+}
+.titulo{
+    padding-top: 10px;
+    font-family: Arial;
+}
+.info{
+    font-family: Arial;
+}
+.meta{
+    font-family: Arial;
+    color: cadetblue;
+}
+.porcetaje{
+    font-family: monospace;
+    color: rgb(3, 179, 179);
+}
+.paypallink img{
+    height: 100px;
+}
+
+@media only screen and (max-width: 720px) {
+    .divDonacionesPadre{
+
+        width: 500px;
+    }
+
+}
+
+  @media only screen and (max-width: 590px) {
+    .divDonacionesPadre{
+        width: 400px;
+    }
+
+}
+

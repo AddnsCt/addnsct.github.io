@@ -1,0 +1,109 @@
+
+#send{
+    align-items: center;
+}
+
+
+.separadorxd{
+    padding: 10px;
+}
+
+.divContenidoInicio{
+    background-color: rgba(70, 131, 180, 0.918);
+    width: 350px;/*ANCHO*/
+    height: 500px;/*ALTO */
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.nameC{
+    background-color: rgba(70, 131, 180, 0.925);
+    border-radius: 9px;
+}
+.nameC h3{
+    padding: 5px;
+    font-family: arial
+}
+
+.divImagenInicio{
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.divsegundopadrexd{
+    background-color: royalblue;
+    position: relative;
+    padding: 5px;
+    border-radius: 5px;
+    width: 340px;/*ANCHO*/
+    height: 200px;/*ALTO */
+}
+
+.by{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.by p{
+    text-align: initial;
+    font-family: arial;
+    left: 3px;
+    color: white;
+    
+}
+.redes{
+    margin: 3px;
+}
+.redes span a img{
+    height: 15px;
+    align-items: initial;
+}
+
+.descripciontitulo{
+    text-align: initial;
+    padding: 3px;
+    font-family: con;
+}
+
+.descripciondivtexto{
+    overflow-y: scroll;
+    height: 250px;
+    margin-top: 15px;
+
+}
+
+.descirpciontexto{
+    font-family: Arial;
+    color: white;
+}
+
+
+.contenidofooter{
+    background-color: bisque;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 325px;/*ANCHO*/
+    height: 50px;/*ALTO */
+
+
+}
+
+.contenidofooter p{
+    text-align: initial;
+    color: darkblue;
+}
+
+
+.botondescargar img{
+    position: relative;
+    height: 45px;
+    display: inline-block;
+}
+
+

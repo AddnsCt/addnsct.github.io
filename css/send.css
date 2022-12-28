@@ -1,0 +1,54 @@
+body{
+    background: rgba(70, 131, 180, 0.842);
+}
+
+.formularioDeEnvio{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background: white;
+}
+
+.enviarContenidoTitulo{
+    font-family: Arial;
+    padding-top: 10px;
+}
+
+input{
+    font-family: Arial;
+}
+
+#buttonSend{
+    border-color: cornflowerblue;
+    width: 70px;
+    background-color: aqua;
+    color: steelblue;
+}
+
+
+
+#verificar{
+    display: ti;
+    background: rgba(0, 128, 128, 0.226);
+    height: 100%;
+    width: 100%;
+    z-index: 1010;
+    display: flex;
+    position: fixed;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .formularioDeEnvio{
+
+        width: 500px;
+    }
+
+}
+
+  @media only screen and (max-width: 590px) {
+    .formularioDeEnvio{
+        width: 400px;
+    }
+
+}
