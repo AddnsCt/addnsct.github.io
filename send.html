@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AddnsCt</title>
+    <link rel="icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/send.css">
+    <link rel="stylesheet" href="menu/menu.css">
+  </head>
+  <body id="body">
+  <!--Navegación-->
+  <center>
+    <div id="verificar">>
+      <div>
+        <br><br><br><br><br><br><br><br>
+        <h3>ASD</h3>
+      </div>
+    </div>
+    </center>
+  <!--Menu-->
+<header>
+    <div class="title"><h1>AddnsCt</h1></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Addons.html">Addons</a></li>
+        <li><a href="Texturas.html">Texturas</a></li>
+        <li><a href="Mapas.html">Mapas</a></li>
+        <li><a href="Skins.html">Skins</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger-icon">
+      <div id="bar1"></div>
+      <div id="bar2"></div>
+      <div id="bar3"></div>
+      <ul class="menu2">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Addons.html">Addons</a></li>
+        <li><a href="Texturas.html">Texturas</a></li>
+        <li><a href="Mapas.html">Mapas</a></li>
+        <li><a href="Skins.html">Skins</a></li>
+      </ul>
+    </div>
+  </header>
+  <div>
+    <br><br><br><br>
+  </div>
+
+<div class="separadorxd">
+<center>
+
+    <div class="formularioDeEnvio">
+    <form action="https://formsubmit.co/addnsct@gmail.com" method="POST" enctype="multipart/form-data">
+        <h2 class="enviarContenidoTitulo">ENVIAR CONTENIDO</h2>
+        <br>
+        <input type="text" placeholder="USUARIO" name="User" required>
+        <input type="number" placeholder="KEY" name="Key" required>
+        <br>
+        <h2 class="enviarContenidoTitulo">INFORMACIÓN DEL ENVIO</h2>
+        <H6>(COMPLETE LA INFORMACIÓN DE ACUERDO AL CONTENIDO QUE ENVIA)</H6>
+        <br>
+        <input type="text" placeholder="NOMBRE" name="Nombre" required>
+        <br>
+        <input type="text" placeholder="VERCIÓN DE MC" name="Vercion" required>
+        <br>
+        <input type="url" placeholder="ENLACE DE DESCARGA" name="Enlace" required>
+        <br>
+        <label for="tipos">Tipo del contenido</label>
+        <select name="tipo" id="tipos">
+            <option>Addon</option>
+            <option>Mapa</option>
+            <option>Textura</option>
+            <option>Skins</option>
+        </select>
+        <br>
+        <input type="file" name="attachment" accept="image/png, image/jpeg" required="">
+        <br><br>
+        <textarea name="descripcion" id="" cols="30" rows="10" placeholder="Descripcion"></textarea>
+
+
+
+
+
+
+        <br>
+        <button id="buttonSend">ENVIAR</button>
+
+        <!--XD-->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Nuevo Addon!">
+        <input type="hidden" name="_next" value="https://addnsct.neocities.org">
+    </form>
+    <br><br>
+    <a href="crear cuenta.html">Soy Nuevo</a>
+    </div>
+</center>
+</div>
+
+  <footer class="footer">
+    <div class="footerUnoPadre">
+      <div class="footerContenido0">
+        <div class="footerLogoTexto">
+<!--   <img src="img/key.png" alt="">-->
+          <p class="footerAddnsct">AddnsCt</p>
+        </div> 
+        <div class="footerRedes">
+          <span class="tw"><a href="https://twitter.com/addnsct" target="_blank" ><img src="img/footer/twitter.svg"></a></span>
+          <span class="yt"><a href="https://www.youtube.com/@AddnsCt" target="_blank"><img src="img/footer/youtube.svg"></a></span>
+          <span class="dc"><img src="img/footer/discord.svg"></span>
+          <span class="py"><a href=""><img src="img/footer/paypal.svg"></a></span>
+        </div>
+      </div>
+    </div>
+  <hr>
+  <div class="footerDosPadre">
+    <div class="footerEnviarIcon">
+      <center>
+      <a href="send.html">
+        <img src="img/send.png" id="send">
+      </a>
+      <p>Comparte tus creaciones!!</p>
+      </center>
+    </div>
+  <div class="footerCopyrTexto">
+      <center>
+      <p>© 2022 AddnsCt</p>
+      <p>Esta pagina pertece al corporativo NCt</p>
+      </center>
+  </div>
+    <div class="footerLinks">
+      <a href="s">contacto</a>
+      <a href="s">Acerca De</a>
+      <a href="#">Donaciones</a>
+    </div>
+  </div>
+</div>
+  </footer>
+    <script src="js/send.js"></script>
+    <script src="menu/menu.js"></script>
+  </body>
+</html>
